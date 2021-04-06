@@ -3,13 +3,14 @@ import './App.css';
 
 class App extends Component {
   render() {
-  //   return (
-  //     <div className="App">
-  //       <h1>Hi, I'm a React App.</h1>
-  //     </div>
-  //   );
+    return (
+      <div className="App">
+        <h1>Hi, I'm a React App.</h1>
+        <p>Sample content round 1</p>
+      </div>
+    );
 
-    return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi, I\'m a React App!!!'));
+    //return React.createElement('div', {className: 'App'}, React.createElement('h1', null, 'Hi, I\'m a React App!!!'));
 
   }
 }
